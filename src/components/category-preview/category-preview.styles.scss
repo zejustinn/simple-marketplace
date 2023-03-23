@@ -1,0 +1,26 @@
+.category-preview-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  .title-container {
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+
+    .title {
+      font-size: 28px;
+      cursor: pointer;
+
+      &:hover {
+        color: #bcb7b7;
+      }
+    }
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+  }
+}

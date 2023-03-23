@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  opacity: 0.95;
+  
+  .navigation-logo {
+    margin: 15px;
+  }
+
+  .navigation-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 15px 0 0;
+    text-transform: uppercase;
+
+    .navigation-link {
+      margin: 0 15px 0 0;
+      color: #4a4a4a;
+    }
+  }
+}
